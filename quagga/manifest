@@ -1,0 +1,32 @@
+{
+  "acKind": "ImageManifest",
+  "acVersion": "0.5.1",
+  "name": "cloudrouter/quagga",
+  "labels": [
+    {
+      "name": "version",
+      "value": "0.0.1"
+    },
+    {
+      "name": "arch",
+      "value": "amd64"
+    },
+    {
+      "name": "os",
+      "value": "linux"
+    }
+  ],
+  "app": {
+    "exec": [
+      "/usr/sbin/zebra"
+    ],
+    "user": "0",
+    "group": "0"
+  },
+  "annotations": [
+    {
+      "name": "authors",
+      "value": "Arun Neelicattu <arun.neelicattu@gmail.com>"
+    }
+  ]
+}
